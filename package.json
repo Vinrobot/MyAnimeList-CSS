@@ -1,0 +1,26 @@
+{
+	"name": "vinrobot-mal-css",
+	"version": "0.0.1",
+	"description": "",
+	"license": "MIT License",
+	"author": "Vinrobot",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Vinrobot/MyAnimeList-CSS"
+	},
+	"scripts": {
+        "gulp": "gulp",
+        "clean": "gulp clean"
+    },
+	"devDependencies": {
+		"del": "^3.0.0",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^6.0.0",
+		"gulp-csso": "^3.0.1",
+		"gulp-sass": "^4.0.1",
+		"run-sequence": "^2.2.1"
+	},
+	"engines": {
+		"node": ">=0.12.0"
+	}
+}
