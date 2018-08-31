@@ -4,7 +4,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var csso = require('gulp-csso');
 var del = require('del');
 var gulp = require('gulp');
-var runSequence = require('run-sequence');
+var runSequence = require('gulp4-run-sequence');
 var sass = require('gulp-sass');
 
 
@@ -46,6 +46,6 @@ gulp.task('styles', function() {
 gulp.task('clean', () => del(['dist']));
 
 // Gulp task to minify all files
-gulp.task('default', ['clean'], function() {
-	runSequence('styles');
-});
+gulp.task('default', gulp.series('clean', function(done) {
+	runSequence([ 'styles', done ]);
+}));

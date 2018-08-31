@@ -9,16 +9,16 @@
 		"url": "https://github.com/Vinrobot/MyAnimeList-CSS"
 	},
 	"scripts": {
-        "gulp": "gulp",
-        "clean": "gulp clean"
-    },
+		"gulp": "gulp",
+		"clean": "gulp clean"
+	},
 	"devDependencies": {
 		"del": "^3.0.0",
-		"gulp": "^3.9.1",
+		"gulp": "^4.0.0",
 		"gulp-autoprefixer": "^6.0.0",
 		"gulp-csso": "^3.0.1",
 		"gulp-sass": "^4.0.1",
-		"run-sequence": "^2.2.1"
+		"gulp4-run-sequence": "0.0.3"
 	},
 	"engines": {
 		"node": ">=0.12.0"
