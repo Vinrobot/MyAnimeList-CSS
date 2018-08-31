@@ -1,0 +1,15 @@
+@viewport {
+	width: device-width !important;
+	zooom: 1 !important;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	width: 100%;
+	position: absolute;
+	background-size: cover;
+}
