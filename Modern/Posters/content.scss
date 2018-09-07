@@ -156,19 +156,28 @@ header {
 	width: 100%;
 	height: 100%;
 }
+
 .list-item .data.image .image {
-	display: none !important;
+	display: block !important;
+	width: 100% !important;
+	height: 100% !important;
+	border: none !important;
 }
-.list-item .data.image .link::after {
-	content: '';
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
+.list-item .data.image .link {
+	width: 100%;
+	height: 100%;
+
+	&::after {
+		content: '';
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
 }
 
 /* Card */

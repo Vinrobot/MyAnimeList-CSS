@@ -29,7 +29,6 @@ The following columns must be enabled: `Numbers`, `Score`, `Type`, `Episodes` an
 This project is licensed under the [MIT License](http://en.wikipedia.org/wiki/MIT_License).
 
 ## ToDo
-- Display Modern template images as fallback
 - Display Cover Image
 - Support Manga List
 - Upload classic custom style
