@@ -8,18 +8,6 @@ var runSequence = require('gulp4-run-sequence');
 var sass = require('gulp-sass');
 
 
-const AUTOPREFIXER_BROWSERS = [
-	'ie >= 10',
-	'ie_mob >= 10',
-	'ff >= 30',
-	'chrome >= 34',
-	'safari >= 7',
-	'opera >= 23',
-	'ios >= 7',
-	'android >= 4.4',
-	'bb >= 10'
-];
-
 // Gulp task to minify SASS files
 gulp.task('styles', function() {
 	return gulp.src('./**/main.scss')
@@ -33,7 +21,7 @@ gulp.task('styles', function() {
 	}))
 
 	// Auto-prefix css styles for cross browser compatibility
-	.pipe(autoprefixer({ browsers: AUTOPREFIXER_BROWSERS }))
+	.pipe(autoprefixer())
 
 	// Minify the file
 	.pipe(csso())
