@@ -1,22 +1,26 @@
 @-webkit-viewport {
 	width: device-width !important;
-	zooom: 1 !important
+	zooom: 1 !important;
 }
+
 @-moz-viewport {
 	width: device-width !important;
-	zooom: 1 !important
+	zooom: 1 !important;
 }
+
 @-ms-viewport {
 	width: device-width !important;
-	zooom: 1 !important
+	zooom: 1 !important;
 }
+
 @-o-viewport {
 	width: device-width !important;
-	zooom: 1 !important
+	zooom: 1 !important;
 }
+
 @viewport {
 	width: device-width !important;
-	zooom: 1 !important
+	zooom: 1 !important;
 }
 
 body {
@@ -26,16 +30,16 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	font-family: 'Comic Sans MS', Arial;
-	font-size: 15px
+	font-size: 15px;
 }
 
 #list_surround {
 	width: 1050px;
-	margin: auto
+	margin: auto;
 }
 
 #grand_totals {
-	display: none
+	display: none;
 }
 
 #mal_control_strip {
@@ -45,7 +49,7 @@ body {
 	right: 0;
 	background: rgba(0, 0, 0, 0.75) !important;
 	height: 45px;
-	z-index: 10000
+	z-index: 10000;
 }
 
 #mal_control_strip #searchBox {
@@ -59,12 +63,12 @@ body {
 	background-color: black;
 	color: white;
 	font-size: 12px;
-	padding: 5px
+	padding: 5px;
 }
 
 #mal_control_strip #searchListButton {
 	margin-left: -25px;
-	margin-right: 10px
+	margin-right: 10px;
 }
 
 #copyright {
@@ -75,61 +79,66 @@ body {
 	background-color: rgba(0, 0, 0, 0.75);
 	color: white;
 	font-size: 14px;
-	z-index: 10000
+	z-index: 10000;
 }
 
 #copyright:after {
-	content: ' Design by Vinrobot.'
+	content: ' Design by Vinrobot.';
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
 	#list_surround {
 		width: 210px;
 		max-width: 210px;
-		min-width: 210px
-	}
-}
-@media screen and (min-width:640px) and (max-width:850px) {
-	#list_surround {
-		width: 420px;
-		max-width: 420px;
-		min-width: 420px
-	}
-}
-@media screen and (min-width:850px) and (max-width:1060px) {
-	#list_surround {
-		width: 630px;
-		max-width: 630px;
-		min-width: 630px
-	}
-}
-@media screen and (min-width:1060px) and (max-width:1270px) {
-	#list_surround {
-		width: 840px;
-		max-width: 840px;
-		min-width: 840px
-	}
-}
-@media screen and (min-width:1270px) and (max-width:1480px) {
-	#list_surround {
-		width: 1050px;
-		max-width: 1050px;
-		min-width: 1050px
+		min-width: 210px;
 	}
 }
 
-@media screen and (min-width:1480px) and (max-width:1480px) {
+@media screen and (min-width: 640px) and (max-width: 850px) {
+	#list_surround {
+		width: 420px;
+		max-width: 420px;
+		min-width: 420px;
+	}
+}
+
+@media screen and (min-width: 850px) and (max-width: 1060px) {
+	#list_surround {
+		width: 630px;
+		max-width: 630px;
+		min-width: 630px;
+	}
+}
+
+@media screen and (min-width: 1060px) and (max-width: 1270px) {
+	#list_surround {
+		width: 840px;
+		max-width: 840px;
+		min-width: 840px;
+	}
+}
+
+@media screen and (min-width: 1270px) and (max-width: 1480px) {
+	#list_surround {
+		width: 1050px;
+		max-width: 1050px;
+		min-width: 1050px;
+	}
+}
+
+@media screen and (min-width: 1480px) and (max-width: 1480px) {
 	#list_surround {
 		width: 1260px;
 		max-width: 1260px;
-		min-width: 1260px
+		min-width: 1260px;
 	}
 }
-@media screen and (min-width:1690px) {
+
+@media screen and (min-width: 1690px) {
 	#list_surround {
 		width: 1470px;
 		max-width: 1470px;
-		min-width: 1470px
+		min-width: 1470px;
 	}
 }
 
@@ -143,7 +152,7 @@ body {
 	background-color: gray;
 	background-color: rgba(0, 0, 0, 0.5);
 	height: 70px;
-	font-size: 25px
+	font-size: 25px;
 }
 
 #list_surround .header_cw+table,
@@ -151,7 +160,7 @@ body {
 #list_surround .header_onhold+table,
 #list_surround .header_dropped+table,
 #list_surround .header_ptw+table {
-	display: none !important
+	display: none !important;
 }
 
 #list_surround .hide {
@@ -164,13 +173,13 @@ body {
 	position: relative;
 	background-position: center;
 	background-size: cover;
-	z-index: -10
+	z-index: -10;
 }
 
 #list_surround table,
 #list_surround table a {
 	color: white;
-	text-decoration: none
+	text-decoration: none;
 }
 
 #list_surround table:nth-of-type(n+4):not(.header_cw):not(.header_completed):not(.header_onhold):not(.header_dropped):not(.header_ptw) {
@@ -178,7 +187,7 @@ body {
 	height: 280px;
 	width: 180px;
 	margin: 15px;
-	float: left
+	float: left;
 }
 
 #list_surround table:nth-of-type(n+4):not(.header_cw):not(.header_completed):not(.header_onhold):not(.header_dropped):not(.header_ptw) tbody,
@@ -186,7 +195,7 @@ body {
 	position: relative;
 	display: block;
 	height: 100%;
-	width: 100%
+	width: 100%;
 }
 
 #list_surround table:nth-of-type(n+4):not(.header_cw):not(.header_completed):not(.header_onhold):not(.header_dropped):not(.header_ptw) tr {
@@ -202,25 +211,25 @@ body {
 
 #list_surround .td1,
 #list_surround .td2 {
-	display: block
+	display: block;
 }
 
 #list_surround .td1,
 #list_surround .td2,
 #list_surround .td1 a,
 #list_surround .td2 a {
-	font-size: 10pt
+	font-size: 10pt;
 }
 
 #list_surround .td1:nth-of-type(2),
 #list_surround .td2:nth-of-type(2) {
 	text-align: center;
-	width: 100%
+	width: 100%;
 }
 
 #list_surround .td1:nth-of-type(2)>div,
 #list_surround .td2:nth-of-type(2)>div {
-	display: none
+	display: none;
 }
 
 #list_surround .td1:nth-of-type(2)>small,
@@ -229,7 +238,7 @@ body {
 	width: 100%;
 	top: 5px;
 	left: 0;
-	color: red
+	color: red;
 }
 
 #list_surround .td1 .animetitle,
@@ -241,7 +250,7 @@ body {
 	width: 100%;
 	font-size: 11pt;
 	background-color: rgba(0, 0, 0, 0.65);
-	border-bottom: 20px solid transparent
+	border-bottom: 20px solid transparent;
 }
 
 #list_surround .td1 .animetitle:before,
@@ -253,9 +262,10 @@ body {
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.65));
-	content: ''
+	content: '';
 }
 
+/* Number */
 #list_surround .td1[width="30"],
 #list_surround .td2[width="30"] {
 	text-align: center;
@@ -265,28 +275,30 @@ body {
 	width: auto;
 	padding: 2px 5px;
 	background-color: rgba(0, 0, 0, 0.65);
-	border-radius: 2px
+	border-radius: 2px;
 }
 
 #list_surround .td1[width="30"]:before,
 #list_surround .td2[width="30"]:before {
-	content: '#'
+	content: '#';
 }
 
+/* Score */
 #list_surround .td1[width="45"],
 #list_surround .td2[width="45"] {
 	text-align: left;
 	position: absolute;
 	bottom: 2px;
 	left: 2px;
-	width: auto
+	width: auto;
 }
 
 #list_surround .td1[width="45"]:before,
 #list_surround .td2[width="45"]:before {
-	content: 'Score:\20'
+	content: 'Score:\20';
 }
 
+/* Type */
 #list_surround .td1[width="50"],
 #list_surround .td2[width="50"] {
 	text-align: center;
@@ -296,30 +308,32 @@ body {
 	width: auto;
 	padding: 2px 5px;
 	background-color: rgba(0, 0, 0, 0.65);
-	border-radius: 2px
+	border-radius: 2px;
 }
 
+/* Episode */
 #list_surround .td1[width="70"],
 #list_surround .td2[width="70"] {
 	width: auto;
 	text-align: right;
 	position: absolute;
 	right: 2px;
-	bottom: 2px
+	bottom: 2px;
 }
 
 #list_surround .td1[width="70"]:before,
 #list_surround .td2[width="70"]:before {
-	content: 'Ep:\20'
+	content: 'Ep:\20';
 }
 
+/* Edit */
 #list_surround .td1[width="125"],
 #list_surround .td2[width="125"],
 #list_surround .td1[width="90"],
 #list_surround .td2[width="90"],
 #list_surround .td1[nowrap],
 #list_surround .td2[nowrap] {
-	display: none
+	display: none;
 }
 
 #list_surround .category_totals {
@@ -336,16 +350,16 @@ body {
 }
 
 #list_surround .category_totals span[title] {
-	font-size: 0
+	font-size: 0;
 }
 
 #list_surround .category_totals span[title]:before {
 	content: attr(title);
-	font-size: 12pt
+	font-size: 12pt;
 }
 
 #list_surround .category_totals span[title="Downloaded Episodes"]:before {
-	content: 'Downloaded Eps'
+	content: 'Downloaded Eps';
 }
 
 body {
